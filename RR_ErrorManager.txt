@@ -1,0 +1,43 @@
+//=============================================================================
+// RhandR Plugins - ErrorManager
+// RR_ErrorManager.js
+// Version: 1.00
+// License: BSD
+//=============================================================================
+ /*:
+ * @plugindesc v1.00 This plugin managers error massages and events. It will auto
+ * generate log files constains all error informations and upload it to certain
+ * server
+ * @author RhandR Studio
+ *
+ * @param generateLogFile
+ * @desc Switch to log file generator
+ * @default false
+ *
+ * @param autoUpload
+ * @desc Switch to autoUpload log file to server
+ * @default false
+ *
+ * @param logServer
+ * @desc IP address of host name of cloud server
+ * @default 192.168.0.1
+ *
+ * @help
+ * Introduction
+ * This plugin Managers all the error messages in game
+ * 
+ * Example:
+ *
+ * changelog
+ * 1.00 new release
+ */
+ 
+ // Imported
+var Imported = Imported || {};
+Imported.RR_ErrorManager = true;
+
+RR_ErrorManager = {};
+
+RR_ErrorManager.messages = function (message) {
+	
+};
